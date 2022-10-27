@@ -1,0 +1,41 @@
+.nav {
+  /* border: 3px solid red; */
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  /* align-items: space-between; */
+  position: fixed;
+}
+
+.nav ul {
+  margin-left: 60%;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.nav ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.nav ul li button {
+  padding: 8px 25px;
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+}

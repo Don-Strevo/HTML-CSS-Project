@@ -1,19 +1,46 @@
+body {
+  width: 100vw;
+  background-image: url(./pictures/IMG-20191116-WA0036.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* border: 2px solid red; */
 }
-/* ---------------------Background------------------ */
-body {
-  width: 100vw;
-  background-image: url(../pictures/IMG-20191116-WA0036.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+
+#hero {
+  height: auto;
+  width: 50%;
+  /* background-attachment: fixed; */
+  backdrop-filter: blur(10px);
+  /* position: relative; */
+  /* left: 0;
+      top: 0; */
 }
-/* ---------------------Navi------------------ */
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 60px;
+}
+
 .nav {
   /* border: 3px solid red; */
   width: 90%;
@@ -56,35 +83,6 @@ body {
   cursor: pointer;
 }
 
-/* ---------------------General------------------ */
-#hero {
-  height: auto;
-  width: 50%;
-  /* background-attachment: fixed; */
-  backdrop-filter: blur(10px);
-  /* position: relative; */
-  /* left: 0;
-    top: 0; */
-}
-
-.container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-section {
-  height: 100vh;
-  width: 100%;
-  color: #fff;
-}
-
-h2 {
-  margin-bottom: 60px;
-}
-/* ---------------------Home------------------ */
-
 .home {
   width: 30vw;
   color: #fff;
@@ -93,14 +91,14 @@ h2 {
   top: 8%;
 }
 
-#home button {
+.home button {
   padding: 8px 20px;
   background: transparent;
   border: 2px solid #fff;
   border-radius: 20px;
   color: #fff;
 }
-/* ---------------------About Me------------------ */
+
 .carousel-item {
   border: 2px solid black;
   border-radius: 10%;
@@ -120,6 +118,7 @@ h2 {
   justify-content: center;
   /* margin: auto; */
 }
+
 .me h2 {
   justify-content: center;
   margin: auto;
@@ -137,6 +136,7 @@ h2 {
 .certi ul li {
   padding: 10px;
 }
+
 .skills {
   /* border: 3px solid blue; */
   height: 80vh;
@@ -213,7 +213,7 @@ td {
   align-items: center;
   margin: auto;
 }
-/* ---------------------Projects------------------ */
+
 .flipper {
   display: flex;
   flex-wrap: wrap;
@@ -267,7 +267,7 @@ td {
   /* color: white; */
   transform: rotateY(180deg);
 }
-/* ---------------------Contact------------------ */
+
 .contact {
   display: flex;
   justify-content: center;
@@ -319,8 +319,8 @@ td {
     width: 70%;
   }
   #about-me > h2,
-  #projects > h2,
-  #contact > h2 {
+#projects > h2,
+#contact > h2 {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -332,11 +332,10 @@ td {
     height: auto;
   }
   .flip-card-front h2,
-  .flip-card-back h2 {
+.flip-card-back h2 {
     font-size: 15px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .home {
     position: static;
@@ -345,21 +344,13 @@ td {
     height: auto;
   }
   #about-me > h2,
-  #projects > h2,
-  #contact > h2 {
+#projects > h2,
+#contact > h2 {
     margin-top: 20%;
   }
 }
-
 @media screen and (max-width: 470px) {
   #hero {
     width: 100%;
   }
-}
-
-@media screen and (max-width: 300px) {
-  .nav ul {
-    margin-left: 0;
-    z-index: 10;
-  }
-}
+}/*# sourceMappingURL=style.css.map */

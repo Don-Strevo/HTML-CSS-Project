@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact p {
+  margin: 30px auto;
+  font-size: large;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.email {
+  width: 80px;
+  height: auto;
+}
+
+.icons a img {
+  width: 80px;
+  height: auto;
+}

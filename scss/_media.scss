@@ -1,0 +1,60 @@
+@media screen and (max-width: 1024px) {
+  .nav {
+    width: 95vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav ul {
+    right: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #hero {
+    width: 63%;
+  }
+  .home {
+    width: 70%;
+  }
+  #about-me > h2,
+  #projects > h2,
+  #contact > h2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .carousel-item {
+    border-radius: 0;
+  }
+  .me {
+    height: auto;
+  }
+  .flip-card-front h2,
+  .flip-card-back h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    position: static;
+  }
+  section {
+    height: auto;
+  }
+  #about-me > h2,
+  #projects > h2,
+  #contact > h2 {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #hero {
+    width: 100%;
+  }
+}

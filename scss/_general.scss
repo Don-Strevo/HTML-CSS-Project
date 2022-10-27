@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+#hero {
+  height: auto;
+  width: 50%;
+  /* background-attachment: fixed; */
+  backdrop-filter: blur(10px);
+  /* position: relative; */
+  /* left: 0;
+      top: 0; */
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 60px;
+}
